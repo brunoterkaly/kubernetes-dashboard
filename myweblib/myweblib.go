@@ -34,10 +34,6 @@ type MyPod struct {
 	labels     map[string]string
 }
 
-func Hello() {
-	fmt.Println("hello")
-}
-
 func GetClusterInfo() []string {
 
 	var mynodes v1types.NodeInterface
